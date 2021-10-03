@@ -56,6 +56,7 @@ function App() {
 
     try {
       await user.signUp();
+      alert("succesfully Signed up");
       // Hooray! Let them use the app now.
     } catch (error) {
       // Show the error message somewhere and let the user try again.
